@@ -1,0 +1,15 @@
+.top-header {
+    padding-top: 17px;
+    padding-bottom: 16px;
+    background-color: #E5E5E5;
+}
+
+.top-header__list {
+    margin: 0;
+    padding:0;
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    list-style-type: none;
+}

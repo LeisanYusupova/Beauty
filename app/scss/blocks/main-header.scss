@@ -1,0 +1,29 @@
+.main-header {
+    display: flex;
+    width: 1110px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    gap: 30px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-header__logo {
+    grid-column: 1 / span 3;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+}
+
+.main-header__logo-name {
+    color: #66C05D;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    margin-left: 20px;
+}

@@ -1,0 +1,61 @@
+.offers {
+    background-color: #EFEFEF;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 133px;
+    box-sizing: border-box;
+
+}
+
+.offers__title {
+    grid-column: 1 / span 12;
+    margin: 0;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.oferrs__card {
+    background-color: #FFFFFF;
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 25px 30px 25px 30px;
+}
+
+.offers__block{
+    grid-column: 1 / span 12; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.offers__subtitle {
+    margin: 0px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.offers__image {
+    text-align: center;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.offers__price {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,42 @@
+
+.button--white {
+    width: 170px;
+    height: 40px;
+    border: 2px solid #66C05D;
+    border-radius: 40px;
+    box-sizing: border-box;
+    padding: 12px 26px 12px 26px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.button--transparent {
+    display: block;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+
+.button--green {
+    width: 130px;
+    box-sizing: border-box;
+    padding: 9px 39px 9px 39px;
+    background-color: #66C05D;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    width: 170px;
+    height: 40px;
+    border-radius: 40px;
+    box-sizing: border-box;
+    padding: 12px 26px 12px 26px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+}

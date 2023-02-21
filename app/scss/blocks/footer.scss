@@ -1,0 +1,19 @@
+.footer {
+    padding-top: 37px;
+    padding-bottom: 38px;
+}
+
+.footer__container {
+    grid-column: 5 / span 4; 
+    display: flex;
+    justify-content: center;
+}
+
+.footer__address {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+}

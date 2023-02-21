@@ -1,0 +1,18 @@
+.contacts {
+    grid-column: 9 / span 4;  
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__phone {
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.contacts__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

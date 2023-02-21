@@ -1,0 +1,9 @@
+.wrapper {
+    display: flex;
+    width: 1110px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    gap: 30px;
+    box-sizing: border-box;
+}

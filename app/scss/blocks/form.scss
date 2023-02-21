@@ -1,0 +1,46 @@
+.form {
+    grid-column: 1 / span 6; 
+    background-color: #66C05D;
+    padding: 35px 40px 35px 40px;
+    display: flex;
+}
+
+.form__button {
+    border: none;
+    padding: 0;
+    background-image: url('./images/letter.png');
+    width: 140px;
+    height: 106px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+
+.form__title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.form__wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.form__description {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.form--right {
+    grid-column: 7 / span 6; 
+}
