@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="header">
-        <nav class="top-header">
+        <nav class="top-header top-header--mobile">
             <ul class="top-header__list">
                 <li class="top-header__item">
                     <a class="top-header__link">
@@ -38,6 +38,78 @@
                 </li>
 
             </ul>
+            <div class="contacts--mobile">
+                <a class = "contacts__phone" href="tel:88121234567">8 (812) 123-45-67</a>
+                <div class="contacts__wrapper">
+                    <a class="button button--white">Обратный звонок</a>
+                </div>
+                <nav class="lower-header lower-header--mobile">
+                    <ul class="lower-header__list">
+                        <li class="lower-header__item">
+                            <a class="lower-header__link" href="#">
+                                Парикмахерская
+                            </a>
+                        </li>
+                        <li class="lower-header__item">
+                            <a class="lower-header__link" href="#">
+                                Барбершоп
+                            </a>
+                        </li>
+                        <li class="lower-header__item">
+                            <a class="lower-header__link" href="#">
+                                Маникюр
+                            </a>
+                        </li>
+                        <li class="lower-header__item">
+                            <a class="lower-header__link" href="#">
+                                Педикюр
+                            </a>
+                        </li>
+                        <li class="lower-header__item">
+                            <a class="lower-header__link" href="#">
+                                Массаж
+                            </a>
+                        </li>
+                        <li class="lower-header__item">
+                            <a class="lower-header__link" href="#">
+                                Мебель
+                            </a>
+                        </li>
+                    </ul>
+                </nav>               
+            </div>
+            <ul class="lower-header__list lower-header--closed">
+                <li class="lower-header__item">
+                    <a class="lower-header__link" href="#">
+                        Парикмахерская
+                    </a>
+                </li>
+                <li class="lower-header__item">
+                    <a class="lower-header__link" href="#">
+                        Барбершоп
+                    </a>
+                </li>
+                <li class="lower-header__item">
+                    <a class="lower-header__link" href="#">
+                        Маникюр
+                    </a>
+                </li>
+                <li class="lower-header__item">
+                    <a class="lower-header__link" href="#">
+                        Педикюр
+                    </a>
+                </li>
+                <li class="lower-header__item">
+                    <a class="lower-header__link" href="#">
+                        Массаж
+                    </a>
+                </li>
+                <li class="lower-header__item">
+                    <a class="lower-header__link" href="#">
+                        Мебель
+                    </a>
+                </li>
+            </ul>       
         </nav>
         <div class="main-header">
             <a class="main-header__logo" href="#">
@@ -70,8 +142,13 @@
                     <a class="button button--white">Обратный звонок</a>
                 </div>               
             </div>
+            <button class="mobile-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
-        <nav class="lower-header">
+        <nav class="lower-header lower-header--mobile">
             <ul class="lower-header__list">
                 <li class="lower-header__item">
                     <a class="lower-header__link" href="#">
@@ -117,12 +194,12 @@
             </div>
         </section>
         <section class="offers">
-            <div class="wrapper">
+            <div class="wrapper wrapper--mobile">
                 <h2 class="offers__title">
                     Специальные предложения
                 </h2>
                 <div class="offers__block">
-                    <div class="oferrs__card">
+                    <div class="oferrs__card ">
                         <img class="offers__image" src="./images/Rectangle4.png" alt="Парикмахерское кресло." width="125" height="166">
                         <h3 class="offers__subtitle">Парикмахерское кресло «Норм» гидравлическое</h3>
                         <span class="offers__price">9 900 Р</span>
@@ -167,7 +244,7 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
+     <footer class="footer">
         <div class="wrapper">
             <div class="social">
                 <a class="social__link" href="#">
@@ -205,7 +282,7 @@
                     198555, Невский пр. 140, офис 140
                 </span>
             </div>
-            <div class="contacts">
+            <div class="contacts contacts--footer">
                 <a class = "contacts__phone" href="tel:88121234567">8 (812) 123-45-67</a>
                 <div class="contacts__wrapper">
                     <a class="button button--white">Обратный звонок</a>
@@ -213,5 +290,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 </html>

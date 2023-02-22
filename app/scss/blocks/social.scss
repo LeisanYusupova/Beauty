@@ -4,3 +4,15 @@
     justify-content: space-between;
     grid-column: 1 / span 3; 
 }
+
+@media(max-width: 900px) {
+    .social {
+        width: 50%;
+    }
+}
+
+@media(max-width: 670px) {
+    .social {
+        width: 70%;
+    }
+}

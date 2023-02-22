@@ -19,7 +19,7 @@
 
 .oferrs__card {
     background-color: #FFFFFF;
-    width: 255px;
+    width: 23%;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -58,4 +58,49 @@
     line-height: 25px;
     text-align: center;
     margin-bottom: 20px;
+}
+
+@media(max-width: 900px) {
+    
+    .offers__block {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .offers__title {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .offers__subtitle {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .offers__price {
+        font-size: 19px;
+        line-height: 22px;
+    }
+
+    .offers__image {
+        width: 100px;
+        height: 140px;
+    }
+
+    .oferrs__card {
+        width: 45%;
+        padding: 18px 15px 18px 15px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:670px) {
+    .oferrs__card {
+        width: 80%;
+        padding: 18px 15px 18px 15px;
+        margin-bottom: 10px;
+    }
 }

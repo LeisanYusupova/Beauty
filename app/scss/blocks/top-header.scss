@@ -13,3 +13,49 @@
     margin: 0 auto;
     list-style-type: none;
 }
+
+.top-header__link {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;       
+    color: #333333;
+}
+
+@media(max-width: 1100px) {  
+    .top-header__list {
+        flex-wrap: wrap;  
+        width: 60%; 
+    }
+
+    .top-header__item {
+        flex: 1 0 33%; 
+    }
+
+    .top-header__link {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+    }
+}
+
+@media(max-width:670px) {
+    .top-header--mobile {
+        display: none;
+    }
+
+    .top-header--open{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .top-header--open .top-header__item {
+        flex: 1 0 100%; 
+    }
+
+}
