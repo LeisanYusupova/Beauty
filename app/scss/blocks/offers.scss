@@ -4,7 +4,9 @@
     padding-top: 80px;
     padding-bottom: 133px;
     box-sizing: border-box;
-
+    background-image: url('../../images/car.png');
+    background-repeat: no-repeat;
+    background-position: 82% 7%;
 }
 
 .offers__title {
@@ -71,8 +73,10 @@
 
 
     .offers__title {
-        font-size: 18px;
-        text-align: center;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
     }
 
     .offers__subtitle {
@@ -97,10 +101,27 @@
     }
 }
 
+@media (max-width: 900px) {
+    .offers{
+        background-position: 75% 3%;
+    }
+
+    .offers__title {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 @media (max-width:670px) {
     .oferrs__card {
         width: 80%;
         padding: 18px 15px 18px 15px;
         margin-bottom: 10px;
+    }
+
+    .offers__title {
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
 }

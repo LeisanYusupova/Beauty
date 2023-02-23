@@ -8,11 +8,14 @@
 .form__button {
     border: none;
     padding: 0;
-    background-image: url('./images/letter.png');
+    background-color: #66C05D;
+    background-image: url('../../images/leetter-button.png');
     width: 140px;
     height: 106px;
     border-radius: 10px;
     background-repeat: no-repeat;
+    cursor: pointer;
+    margin-left: auto;
 }
 
 .form__title {
@@ -45,9 +48,22 @@
     grid-column: 7 / span 6; 
 }
 
+@media(max-width:1200px) {
+    .form__button {
+        background-size: cover;
+        width: 120px;
+        background-size: 120px 90px;
+    }
+
+}
 @media (max-width:1100px) {
     .form {
         padding: 25px 30px 25px 30px;
+    }
+
+    .form__button {
+        width: 100px;
+        background-size: 100px 70px;
     }
 
     .form__title {
@@ -68,7 +84,32 @@
         width: 35%;
         margin-left: auto;
         margin-right: auto;
+        display: flex;
+        flex-direction: column;
     }
+
+    .form__wrapper {
+        width: 100%;
+    }
+
+    .form__button {
+        margin-right: auto;
+        margin-top:10px;
+    }
+
+    .form__description {
+        text-align: center;
+    }
+
+    .form__title {
+        text-align: center;
+    }
+
+    .form__wrapper .button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
 }
 
 @media(max-width:670px) {

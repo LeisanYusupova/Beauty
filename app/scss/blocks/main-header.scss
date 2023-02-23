@@ -34,3 +34,9 @@
         width: 100%;
     }
 }
+
+@media (max-width: 400px) {
+    .main-header__logo-name {
+        font-size: 26px;
+    }
+}

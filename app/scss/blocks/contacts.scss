@@ -65,4 +65,9 @@
   .contacts--footer {
       display: block;
   }
+
+  .contacts--footer .contacts__phone {
+     display: flex;
+     justify-content: center;
+  }
 }
