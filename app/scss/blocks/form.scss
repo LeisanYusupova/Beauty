@@ -90,6 +90,10 @@
 
     .form__wrapper {
         width: 100%;
+        .button {
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 
     .form__button {
@@ -103,13 +107,7 @@
 
     .form__title {
         text-align: center;
-    }
-
-    .form__wrapper .button {
-        margin-left: auto;
-        margin-right: auto;
-    }
-  
+    }  
 }
 
 @media(max-width:670px) {

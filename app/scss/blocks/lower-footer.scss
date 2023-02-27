@@ -12,14 +12,13 @@
     font-size: 12px;
     line-height: 14px;
     color: #828282;
-}
+    &:nth-child(1) {
+        grid-column: 1 / span 7; 
+    }
+    &:nth-child(2) {
+        grid-column: 10 / span 3; 
+    }
 
-.lower-footer__information:nth-child(1) {
-    grid-column: 1 / span 7; 
-}
-
-.lower-footer__information:nth-child(2) {
-    grid-column: 10 / span 3; 
 }
 
 @media(max-width:1360px) {

@@ -52,10 +52,8 @@
         position: absolute;
         width: 100%;
         z-index: 2;
+        .top-header__item {
+            flex: 1 0 100%; 
+        }
     }
-
-    .top-header--open .top-header__item {
-        flex: 1 0 100%; 
-    }
-
 }
