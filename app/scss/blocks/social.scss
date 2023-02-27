@@ -6,7 +6,35 @@
     
 }
 
+.social__link {
+    border: 2px solid #66C05D;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1200px) {
+    .social__link {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .social__link {
+        width: 32px;
+        height: 32px;
+    }
+}
+
 @media(max-width: 900px) {
+    .social__link {
+        width: 45px;
+        height: 45px;
+    }
     .social {
         width: 50%;
     }
@@ -15,5 +43,12 @@
 @media(max-width: 670px) {
     .social {
         width: 70%;
+    }
+}
+
+@media(max-width: 440px) {
+    .social__link {
+        width: 32px;
+        height: 32px;
     }
 }
