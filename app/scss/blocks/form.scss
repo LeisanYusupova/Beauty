@@ -1,6 +1,6 @@
 .form {
     grid-column: 1 / span 6; 
-    background-color: #66C05D;
+    background-color: $primary-color;
     padding: 35px 40px 35px 40px;
     display: flex;
 }
@@ -8,7 +8,7 @@
 .form__button {
     border: none;
     padding: 0;
-    background-color: #66C05D;
+    background-color: $primary-color;
     background-image: url('../../images/leetter-button.png');
     width: 140px;
     height: 106px;
