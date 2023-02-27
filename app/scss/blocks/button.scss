@@ -1,0 +1,76 @@
+
+.button--white {
+    width: 170px;
+    height: 40px;
+    border: 2px solid $primary-color;
+    border-radius: 40px;
+    box-sizing: border-box;
+    padding: 12px 26px 12px 26px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.button--transparent {
+    display: block;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+
+.button--green {
+    width: 130px;
+    box-sizing: border-box;
+    padding: 9px 39px 9px 39px;
+    background-color: $primary-color;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    width: 170px;
+    height: 40px;
+    border-radius: 40px;
+    box-sizing: border-box;
+    padding: 12px 26px 12px 26px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+@media (max-width:1280px) {
+    .button--white {
+        font-size: 12px;
+        width: 148px;
+        padding: 10px 22px 10px 22px;
+    }
+}
+@media (max-width: 1200px) {
+    .button--green {
+        width: 110px;
+    } 
+}
+
+@media (max-width: 1100px) {
+    .button {
+        width: 140px;
+        height: 30px;
+        padding: 5px 10px 5px 10px;
+        font-size: 12px;
+    }
+    .button--green {
+        width: 100px;
+    } 
+}
+
+@media(max-width:670px) {
+    .button--transparent {
+        width: 100px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+}

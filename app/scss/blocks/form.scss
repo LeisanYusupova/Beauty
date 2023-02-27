@@ -1,0 +1,117 @@
+.form {
+    grid-column: 1 / span 6; 
+    background-color: $primary-color;
+    padding: 35px 40px 35px 40px;
+    display: flex;
+}
+
+.form__button {
+    border: none;
+    padding: 0;
+    background-color: $primary-color;
+    background-image: url('../../images/leetter-button.png');
+    width: 140px;
+    height: 106px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.form__title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.form__wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.form__description {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.form--right {
+    grid-column: 7 / span 6; 
+}
+
+@media(max-width:1200px) {
+    .form__button {
+        background-size: cover;
+        width: 120px;
+        background-size: 120px 90px;
+    }
+
+}
+@media (max-width:1100px) {
+    .form {
+        padding: 25px 30px 25px 30px;
+    }
+
+    .form__button {
+        width: 100px;
+        background-size: 100px 70px;
+    }
+
+    .form__title {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 10px;
+    }
+
+    .form__description {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 900px) {
+    .form {
+        width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form__wrapper {
+        width: 100%;
+        .button {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .form__button {
+        margin-right: auto;
+        margin-top:10px;
+    }
+
+    .form__description {
+        text-align: center;
+    }
+
+    .form__title {
+        text-align: center;
+    }  
+}
+
+@media(max-width:670px) {
+    .form {
+        width: 70%;
+    }
+}
