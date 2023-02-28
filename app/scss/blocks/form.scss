@@ -5,6 +5,10 @@
     display: flex;
 }
 
+.form__wrapper {
+    justify-content: space-between;
+}
+
 .form__button {
     border: none;
     padding: 0;
@@ -86,6 +90,7 @@
         margin-right: auto;
         display: flex;
         flex-direction: column;
+        
     }
 
     .form__wrapper {
@@ -98,7 +103,8 @@
 
     .form__button {
         margin-right: auto;
-        margin-top:10px;
+        margin-top:20px;
+        height: 80px;
     }
 
     .form__description {
